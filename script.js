@@ -18,7 +18,6 @@ document.getElementById('openDiary').addEventListener('click', function () {
 });
 
 document.getElementById('line1').addEventListener('click', function handler() {
-  console.log('Line1 clicked');
   const line1 = document.getElementById('line1');
   const line2 = document.getElementById('line2');
   const originalText = ' TOMMARVOLORIDDLE';
@@ -92,7 +91,6 @@ document.getElementById('line1').addEventListener('click', function handler() {
     } else {
       clearInterval(interval);
       setTimeout(() => {
-        console.log('Animation complete');
       }, 500);
     }
   }, 375);
